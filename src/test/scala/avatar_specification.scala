@@ -30,10 +30,11 @@ object AvatarSpecification extends Specification {
 
 trait avatar extends Scope {
   val avatar = new Avatar(
+    "Superbul",
     Map(
-      'base_damage -> 10
-    ),
-    20
+      'base_damage -> 10,
+      'hit_points -> 20
+    )
   )
 }
 
